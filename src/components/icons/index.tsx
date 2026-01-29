@@ -1,4 +1,4 @@
-// Pra mais icones acessar... https://heroicons.com/
+
 
 export const IconeCasa = (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -37,7 +37,23 @@ export const IconeLua = (tamanho = 6) => (
 )
 
 export const IconeAtencao = (tamanho = 6) => (
+
     <svg xmlns="http://www.w3.org/2000/svg" className={`h-${tamanho} w-${tamanho}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+
     </svg>
+
+)
+
+
+
+export const IconeGoogle = (
+
+    <svg xmlns="http://www.w3.org/2000/svg"  className="h-6 w-6" viewBox="0 0 488 512">
+
+        <path fill="currentColor" d="M488 261.8C488 403.3 381.5 512 244 512 111.3 512 0 398.5 0 256S111.3 0 244 0c69.8 0 130.8 28.5 173.4 74.9l-67.4 64.8C337.7 112.7 294.6 96 244 96c-83.8 0-152.3 68.5-152.3 160s68.5 160 152.3 160c98.2 0 135-70.4 140.8-106.9H244V261.8h244z"/>
+
+    </svg>
+
 )
